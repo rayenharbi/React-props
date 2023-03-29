@@ -1,0 +1,45 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ body{
+background-color: aqua;
+width: auto;
+ }
+.App{
+display: flex;
+justify-content: space-around;
+padding-top: 30px;
+}
+
+  .button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+ .button:hover {
+    background-color: lightblue;
+    
+  }
+  .flex-container{
+    margin: 5px;
+  }
+ .flex-container img {
+    width: 300px;
+    height: 250px;
+    margin: 0px;
+    object-fit: cover;
+   
+ }
+ 
+
+ .container {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+    border-radius: 10px;
+ }
